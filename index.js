@@ -20,15 +20,11 @@ const generateArray = (length, type) => {
 	});
 };
 
-const main = (type) => {
+module.exports = (type) => {
 	if (Array.isArray(type)) {
 		const chanceType = type[0];
 		const numberOfData = type[1];
 		return generateArray(numberOfData, chanceType);
 	}
 	return getValue(type);
-};
-
-module.exports = {
-	main
 };
