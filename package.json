@@ -1,12 +1,21 @@
 {
   "name": "mock-jay",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.4",
+  "description": "Mock real world data.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arbazsiddiqui/mockingjay.git"
+  },
+  "keywords": [
+    "data mocking",
+    "fake data",
+    "data generation"
+  ],
+  "author": "Arbaz Siddiqui <arbaz00@gmail.com> (http://arbazsiddiqui.me/)",
   "license": "ISC",
   "dependencies": {
     "chance": "^1.0.13"
