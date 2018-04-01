@@ -1,6 +1,6 @@
 # mockingJay
 
-> Mock real world data
+> Mock real world data. Could be used as a single key/value or an array.
 
 
 ## Install
@@ -22,6 +22,17 @@ const person = {
 	address : mockingJay("address")
 }
 //=> { name: 'Helen Drake', age: 31, address: '1869 Obpo Way' }
+
+//array usage
+const web = {
+	ips : mockingJay(["ip", 5])
+}
+/*{ ips: 
+        [ '186.48.247.180',
+          '98.26.2.117',
+          '68.149.95.82',
+          '44.181.84.87',
+          '101.132.104.177' ] } */
 ```
 
 #### Note
